@@ -1,0 +1,89 @@
+body{
+  background-color: #e6f8f9;
+}
+#header{
+  padding-top: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+.text{
+  text-align: center;
+  margin-top: 30px;
+  color: #ff6f5e;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+.text p{
+  color: #719192;
+}
+#input{
+  text-align: center;
+}
+#input_form{
+  margin-top: 30px;
+  width: 500px !important;
+  height: 35px !important;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-color: #5f6769;
+}
+  #input button{
+    margin-top: -4px;
+  }
+input{
+  padding-left: 10px;
+}
+#input_form:hover{
+  color: #3c4245;
+  border-style: groove;
+}
+.result{
+  border: solid;
+  border-color: #eeeeee;
+  height: 40px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  color: black;
+  margin-top: 70px;
+  padding-top: 5px;
+}
+.result:hover{
+  background-color: #719192;
+  color: white;
+}
+.deletec{
+  background-color: black;
+  color: white;
+}
+.deletec:hover{
+  color: yellow;
+}
+.text-center{
+  text-align: center;
+}
+.result li{
+  margin-left: 3px;
+}
+.delete {
+  display: none;
+ }
+ li{
+   list-style-type:none
+ }
+ #Banner{
+   background-color: #e6f8f9;
+   height: 300px;
+ }
+ .result button{
+   background-color: #f0ad4e !important;
+   border-color: #f0ad4e;
+ }
+ .navbar{
+   background-color: #719192 !important;
+ }
+ #navbar-brand{
+   color: white;
+ }
